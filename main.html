@@ -1,0 +1,41 @@
+<!doctype  html>
+<html>
+<head>
+</head>
+<body>
+
+<input id="value" value=""/>
+<input id="submit" type="button" value="Test" />
+<input id="submit2" type="button" value="Submit" />
+<span id="result"></span>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript"> 
+<!--  
+var _scriptScript_btn_GET_click = function(){
+$('#submit').click(function(){    
+	var year = $('#value').val(); 
+	$.ajax({ 
+		type : 'GET',  
+		url : 'http://192.168.1.1:16071/../../main.html', 
+		data : 'year:'+year,
+		success : function(server_response){ $('#result').html(server_response).fadeIn(2000);} 
+		});
+});};
+var _scriptScript_btn_SubmitPost_click = function(){
+$('#submit2').click(function(){    
+	var year = $('#value').val(); 
+	$.ajax({ 
+		type : 'ress',  
+		url : 'http://192.168.1.1:16071/../../main.html', 
+		data : 'test=56&year:'+year,
+		success : function(server_response){ $('#result').html(server_response).fadeIn(2000);} 
+		});
+});};
+_scriptScript_btn_GET_click();
+_scriptScript_btn_SubmitPost_click();
+-->
+</script>
+</body>
+</html>

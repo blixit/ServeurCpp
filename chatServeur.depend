@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1433951885 source:c:\users\nacder\documents\prog\cpp\chatserveur\main.c
+	<time.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<winsock2.h>
+	<unistd.h>
+

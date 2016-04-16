@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1448819586 source:c:\users\nacder\documents\prog\cpp\serveurcpp\main.c
+	<time.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<winsock2.h>
+	<unistd.h>
+	"sockUtils.h"
+
+1448976602 source:c:\users\nacder\documents\prog\cpp\serveurcpp\http.cpp
+	<iostream>
+	<fstream>
+	<cstdio>
+	<winsock2.h>
+	"http.h"
+	"sockUtils.h"
+
+1448927072 c:\users\nacder\documents\prog\cpp\serveurcpp\http.h
+	"serveur.h"
+
+1448978781 c:\users\nacder\documents\prog\cpp\serveurcpp\sockutils.h
+	<sstream>
+
+1448841675 source:c:\users\nacder\documents\prog\cpp\serveurcpp\sockutils.cpp
+	<time.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<winsock2.h>
+	<unistd.h>
+	"sockUtils.h"
+
+1448820534 source:c:\users\nacder\documents\prog\cpp\serveurcpp\sockutils.c
+	<time.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<winsock2.h>
+	<unistd.h>
+	"sockUtils.h"
+
+1448916070 source:c:\users\nacder\documents\prog\cpp\serveurcpp\main.cpp
+	<time.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<winsock2.h>
+	<unistd.h>
+	"sockUtils.h"
+	"http.h"
+	"serveur.h"
+	"include/httprequete.h"
+
+1448978354 c:\users\nacder\documents\prog\cpp\serveurcpp\serveur.h
+	<iostream>
+	<fstream>
+
+1448978354 source:c:\users\nacder\documents\prog\cpp\serveurcpp\serveur.cpp
+	<iostream>
+	<string.h>
+	<cstdlib>
+	<ctype.h>
+	"serveur.h"
+	"sockUtils.h"
+
+1448836106 c:\users\nacder\documents\prog\cpp\serveurcpp\include\httprequete.h
+	"../http.h"
+
+1448882536 source:c:\users\nacder\documents\prog\cpp\serveurcpp\src\httprequete.cpp
+	<iostream>
+	<cstdlib>
+	"../sockUtils.h"
+	"../include/httprequete.h"
+
